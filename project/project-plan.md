@@ -25,6 +25,25 @@ impact of socioeconomic conditions on education. By highlighting the intersectio
 contribute to ongoing discussions about equity in education and the importance of fostering inclusive learning environments that support 
 all students, regardless of their socioeconomic background​.
 
+## Datasources
+
+
+### Datasource 1:
+* Metadata URL: https://catalog.data.gov/dataset/school-neighborhood-poverty-estimates-2020-21
+* Data URL: https://catalog.data.gov/dataset/school-neighborhood-poverty-estimates-2020-21/resource/de9ce4ec-5171-40e7-9df2-72620efdd19a
+* Data Type: CSV
+
+This dataset from the National Center for Education Statistics (NCES) includes data on neighborhood poverty levels surrounding schools, which can serve as a proxy for educational access and community socioeconomic conditions.
+
+### Datasource 2:
+* Metadata URL: https://catalog.data.gov/dataset/report-card-enrollment-2022-23-school-year-year-end-update
+* Data URL: https://catalog.data.gov/dataset/report-card-enrollment-2022-23-school-year-year-end-update/resource/97c9a15c-8e65-4795-87be-206527b89a86
+* Data Type: CSV
+  
+This dataset provides detailed school enrollment statistics disaggregated by school, district, and state for the 2022-23 school year. It includes student counts by demographics, which can help analyze how regional poverty levels might influence enrollment and highlight disparities across regions.
+
+## Work Packages
+
 
 ## References and footnotes
 [^r1]: https://catalog.data.gov/dataset/school-neighborhood-poverty-estimates-2020-21
