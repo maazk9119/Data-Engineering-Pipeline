@@ -1,0 +1,31 @@
+# Project Plan
+
+## Title
+
+"Unequal Grounds: The Impact of Neighborhood Poverty on School Enrollment Across U.S. Regions"
+
+## Main Questions
+
+1. How does neighborhood poverty level impact school enrollment rates across different regions in the United States?
+
+2. How do poverty levels around schools vary by region in the United States, and what might these differences suggest
+   about educational inequality?
+
+4. ## Description
+
+
+This project aims to explore the relationship between neighborhood poverty levels and school enrollment rates across North, Central, 
+and South America, with a specific focus on the United States. By analyzing the School Neighborhood Poverty Estimates (2020-21) dataset[^r1] 
+alongside the Common Core of Data (CCD)[^r2], this study seeks to uncover how varying poverty levels around schools influence educational access.
+The research will investigate whether schools located in impoverished neighborhoods face challenges that result in lower enrollment rates, 
+thereby shedding light on potential disparities in educational opportunities across different regions.
+
+Ultimately, this research aspires to inform policymakers and educators about the pressing need for targeted interventions that address the 
+impact of socioeconomic conditions on education. By highlighting the intersection of poverty and educational access, this project seeks to 
+contribute to ongoing discussions about equity in education and the importance of fostering inclusive learning environments that support 
+all students, regardless of their socioeconomic background​.
+
+
+## References and footnotes
+[^r1]: https://catalog.data.gov/dataset/school-neighborhood-poverty-estimates-2020-21
+[^r2]: https://catalog.data.gov/dataset/report-card-enrollment-2022-23-school-year-year-end-update
