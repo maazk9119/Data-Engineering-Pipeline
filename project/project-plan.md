@@ -11,7 +11,7 @@
 2. How do poverty levels around schools vary by region in the United States, and what might these differences suggest
    about educational inequality?
 
-4. ## Description
+## Description
 
 
 This project aims to explore the relationship between neighborhood poverty levels and school enrollment rates across North, Central, 
