@@ -3,6 +3,15 @@
   <img src="project/Images/school.webp" width="400" height="300" alt="Project Logo">
 </div>
 
+
+<div align="center">
+
+[![Python](https://img.shields.io/badge/python-3.11.9-blue.svg)](https://www.python.org/downloads/release/python-3119/)
+[![Jayvee](https://img.shields.io/badge/jayvee-0.6.3-blue.svg)](https://pypi.org/project/jayvee/0.6.3/)
+
+[![Exercise Feedback](https://github.com/maazk9119/Data-Engineering-Pipeline/actions/workflows/exercise-feedback.yml/badge.svg)](https://github.com/maazk9119/Data-Engineering-Pipeline/actions/workflows/exercise-feedback.yml)
+</div>
+
 # Table of Contents
 
 1. [Project Overview](#project-overview)
