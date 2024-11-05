@@ -43,7 +43,8 @@ This dataset from the National Center for Education Statistics (NCES) includes d
 This dataset provides detailed school enrollment statistics disaggregated by school, district, and state for the 2022-23 school year. It includes student counts by demographics, which can help analyze how regional poverty levels might influence enrollment and highlight disparities across regions.
 
 ## Work Packages
-
+This project is structured into six work packages, represented as [milestones in the GitHub repository](https://github.com/maazk9119/Data-Engineering-Pipeline/milestones).
+Each work package will contain at least one issue.
 
 ## References and footnotes
 [^r1]: https://catalog.data.gov/dataset/school-neighborhood-poverty-estimates-2020-21
