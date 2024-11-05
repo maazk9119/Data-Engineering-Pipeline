@@ -43,5 +43,5 @@ The data pipeline consists of three main modules:
 The ETL process ensures data quality, consistency, and appropriate format alignment with research questions.
 
 <div align="center">
-  <img src="project/Images/ETL.webp" width="1000" height="150" alt="ETL_Pipeline">
+  <img src="project/Images/ETL.webp" width="800" height="150" alt="ETL_Pipeline">
 </div>
