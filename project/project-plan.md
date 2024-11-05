@@ -46,6 +46,34 @@ This dataset provides detailed school enrollment statistics disaggregated by sch
 This project is structured into six work packages, represented as [milestones in the GitHub repository](https://github.com/maazk9119/Data-Engineering-Pipeline/milestones).
 Each work package will contain at least one issue.
 
+1. **Project Definition and Data Source Selection** [[WP1](https://github.com/maazk9119/Data-Engineering-Pipeline/milestone/1)]
+    1. Define the research topic on a given theme.
+    2. Define the research question on a selected topic.
+    3. Locate potential data sources.
+    4. Evaluate the identified data sources.
+2. **Data Acquisition and Pipeline** [[WP2](https://github.com/maazk9119/Data-Engineering-Pipeline/milestone/2)]
+    1. Determine the best data storage format.
+    3. Data Pipeline.
+3. **Data Exploration, Analytics and Report** [[WP3](https://github.com/maazk9119/Data-Engineering-Pipeline/milestone/3)]
+    1. Conduct exploratory data analysis and preliminary visualization.
+    2. Create DataLoader, Pipeline, Visualizations, Models, etc.
+    3. Address all the research questions.
+    4. Draw conclusions form the analysis. 
+4. **Automated Testing** [[WP4](https://github.com/maazk9119/Data-Engineering-Pipeline/milestone/4)]
+    1. Create Tests.
+5. **Continuous integration** [[WP5](https://github.com/maazk9119/Data-Engineering-Pipeline/milestone/5)]
+    1. Develop CI.
+    2. Develop CI for Pre-Commit.
+6. **Final Report** [[WP6](https://github.com/maazk9119/Data-Engineering-Pipeline/milestone/6)]
+    1. Develop visual representations. 
+    2. Enhance the repository's presentation. 
+    3. Prepare the final presentation.
+  
+**Note:** Work packages must be completed sequentially as each one depends on the completion of all preceding ones.
+
+
+
+
 ## References and footnotes
 [^r1]: https://catalog.data.gov/dataset/school-neighborhood-poverty-estimates-2020-21
 [^r2]: https://catalog.data.gov/dataset/report-card-enrollment-2022-23-school-year-year-end-update
