@@ -10,6 +10,7 @@
 [![Jayvee](https://img.shields.io/badge/jayvee-0.6.3-blue.svg)](https://pypi.org/project/jayvee/0.6.3/)
 
 [![Exercise Feedback](https://github.com/maazk9119/Data-Engineering-Pipeline/actions/workflows/exercise-feedback.yml/badge.svg)](https://github.com/maazk9119/Data-Engineering-Pipeline/actions/workflows/exercise-feedback.yml)
+![](https://byob.yarr.is/maazk9119/Data_Engineering_Pipeline/score_ex1) ![](https://byob.yarr.is/maazk9119/Data_Engineering_Pipeline/score_ex2)
 </div>
 
 # Table of Contents
