@@ -1,37 +1,33 @@
-# Methods of Advanced Data Engineering Template Project
-
-This template project provides some structure for your open data project in the MADE module at FAU.
-This repository contains (a) a data science project that is developed by the student over the course of the semester, and (b) the exercises that are submitted over the course of the semester.
-
-To get started, please follow these steps:
-1. Create your own fork of this repository. Feel free to rename the repository right after creation, before you let the teaching instructors know your repository URL. **Do not rename the repository during the semester**.
-
-## Project Work
-Your data engineering project will run alongside lectures during the semester. We will ask you to regularly submit project work as milestones, so you can reasonably pace your work. All project work submissions **must** be placed in the `project` folder.
-
-### Exporting a Jupyter Notebook
-Jupyter Notebooks can be exported using `nbconvert` (`pip install nbconvert`). For example, to export the example notebook to HTML: `jupyter nbconvert --to html examples/final-report-example.ipynb --embed-images --output final-report.html`
+<div align="center">
+  <h1>Unequal Grounds: The Impact of Neighborhood Poverty on School Enrollment Across U.S. Regions</h1>
+  <img src="project/Images/school.webp" width="400" height="300" alt="Project Logo">
+</div>
 
 
-## Exercises
-During the semester you will need to complete exercises using [Jayvee](https://github.com/jvalue/jayvee). You **must** place your submission in the `exercises` folder in your repository and name them according to their number from one to five: `exercise<number from 1-5>.jv`.
+<div align="center">
 
-In regular intervals, exercises will be given as homework to complete during the semester. Details and deadlines will be discussed in the lecture, also see the [course schedule](https://made.uni1.de/).
+[![Python](https://img.shields.io/badge/python-3.11.9-blue.svg)](https://www.python.org/downloads/release/python-3119/)
+[![Jayvee](https://img.shields.io/badge/jayvee-0.6.3-blue.svg)](https://pypi.org/project/jayvee/0.6.3/)
 
-### Exercise Feedback
-We provide automated exercise feedback using a GitHub action (that is defined in `.github/workflows/exercise-feedback.yml`). 
+[![Exercise Feedback](https://github.com/maazk9119/Data-Engineering-Pipeline/actions/workflows/exercise-feedback.yml/badge.svg)](https://github.com/maazk9119/Data-Engineering-Pipeline/actions/workflows/exercise-feedback.yml)
+![Ex1](https://img.shields.io/badge/Ex1-100%25-brightgreen)![Ex2](https://img.shields.io/badge/Ex2-100%25-brightgreen)
+</div>
 
-To view your exercise feedback, navigate to Actions → Exercise Feedback in your repository.
+# Table of Contents
 
-The exercise feedback is executed whenever you make a change in files in the `exercise` folder and push your local changes to the repository on GitHub. To see the feedback, open the latest GitHub Action run, open the `exercise-feedback` job and `Exercise Feedback` step. You should see command line output that contains output like this:
+1. [Project Overview](#project-overview)
+2. [Data Sources](#data-sources)
 
-```sh
-Found exercises/exercise1.jv, executing model...
-Found output file airports.sqlite, grading...
-Grading Exercise 1
-	Overall points 17 of 17
-	---
-	By category:
-		Shape: 4 of 4
-		Types: 13 of 13
-```
+
+## Project Overview
+This project aims to explore the relationship between neighborhood poverty levels and school enrollment rates across North, Central, and South America, with a specific focus on the United States.
+
+The main objectives are:
+1. How does neighborhood poverty level impact school enrollment rates across different regions in the United States?
+
+2. How do poverty levels around schools vary by region in the United States, and what might these differences suggest about educational inequality?
+
+## Data Sources
+The project utilizes the following datasets:
+- **School Neighborhood Poverty Estimates (2020-21)**: Neighborhood poverty levels surrounding schools.
+- **Report Card Enrollment (2022-2023)**: School enrollment statistics disaggregated by school, district, and state for the 2022-23 school year.
