@@ -17,6 +17,8 @@
 
 1. [Project Overview](#project-overview)
 2. [Data Sources](#data-sources)
+3. [Data Pipeline](#data-pipeline)
+
 
 
 ## Project Overview
@@ -31,3 +33,15 @@ The main objectives are:
 The project utilizes the following datasets:
 - **School Neighborhood Poverty Estimates (2020-21)**: Neighborhood poverty levels surrounding schools.
 - **Report Card Enrollment (2022-2023)**: School enrollment statistics disaggregated by school, district, and state for the 2022-23 school year.
+
+## Data Pipeline
+The data pipeline consists of three main modules:
+1. **Extractor**: Extracts data from URLs.
+2. **Transform**: Performs necessary data transformations including deletion of useless columns and standardization of date formats.
+3. **Loader**: Loads transformed data into an SQLite database.
+
+The ETL process ensures data quality, consistency, and appropriate format alignment with research questions.
+
+<div align="center">
+  <img src="project/Images/ETL.webp" width="1000" height="150" alt="ETL_Pipeline">
+</div>
