@@ -69,7 +69,7 @@ Each work package will contain at least one issue.
     2. Enhance the repository's presentation. 
     3. Prepare the final presentation.
   
-**Note:** Work packages must be completed sequentially as each one depends on the completion of all preceding ones.
+**Note:** Work packages must be completed sequentially as each one depends on the completion of all preceding ones. If you want to track the work package updates, follow it. 
 
 
 
