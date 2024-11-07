@@ -47,8 +47,8 @@ This project is structured into six work packages, represented as [milestones in
 Each work package will contain at least one issue.
 
 1. **Project Definition and Data Source Selection** [[WP1](https://github.com/maazk9119/Data-Engineering-Pipeline/milestone/1)]
-    1. Define the research topic on a given theme. [[issue](https://github.com/maazk9119/Data-Engineering-Pipeline/issues/1)]
-    2. Define the research question on a selected topic. [[issue](https://github.com/maazk9119/Data-Engineering-Pipeline/issues/2)]
+    1. Define the research topic on a given theme. 
+    2. Define the research question on a selected topic.
     3. Locate potential data sources.
     4. Evaluate the identified data sources.
 2. **Data Acquisition and Pipeline** [[WP2](https://github.com/maazk9119/Data-Engineering-Pipeline/milestone/2)]
