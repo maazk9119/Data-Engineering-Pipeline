@@ -18,7 +18,8 @@
 1. [Project Overview](#project-overview)
 2. [Data Sources](#data-sources)
 3. [Data Pipeline](#data-pipeline)
-
+4. [Repository Structure](#repository-structure)
+5. [License](#license)
 
 
 ## Project Overview
@@ -45,3 +46,25 @@ The ETL process ensures data quality, consistency, and appropriate format alignm
 <div align="center">
   <img src="project/Images/ETL.webp" width="700" height="250" alt="ETL_Pipeline">
 </div>
+
+## Repository Structure
+- `.github/workflows`: GitHub Actions workflows.
+- `data/`: Raw and processed data files.
+- `examples/`: Scripts and notebooks for running and trying out examples.
+- `exercises/`: Jayvee exercises.
+- `project/`: Main project folder.
+- `.gitignore`: Specifies files and directories to be ignored by git.
+- `README.md`: Project overview and instructions.
+
+## License
+Both datasets I finalized have open licenses allowing public use and redistribution:
+
+School Neighborhood Poverty Estimates (2020-21) dataset is licensed under the CC BY 4.0 license (Creative Commons Attribution 4.0 International License). This license allows you to share and adapt the data, provided that appropriate credit is given, and any derived works are shared under the same license. 
+
+Common Core of Data (CCD) - School Nonfiscal Data Files and Documentation, 2018-19 dataset is also licensed under the CC BY 4.0 license. This similarly allows public use, distribution, and modification as long as proper attribution is given. 
+
+Therefore, The content of this project is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) license. For more information, visit [CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/).
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://licensebuttons.net/l/by/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
