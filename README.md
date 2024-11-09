@@ -59,7 +59,7 @@ The ETL process ensures data quality, consistency, and appropriate format alignm
 ## License
 Both datasets I finalized have open licenses allowing public use and redistribution:
 
-School Neighborhood Poverty Estimates (2020-21) dataset is licensed under the CC BY 4.0 license (Creative Commons Attribution 4.0 International License). This license allows you to share and adapt the data, provided that appropriate credit is given, and any derived works are shared under the same license. 
+School Neighborhood Poverty Estimates (2020-21) dataset is licensed under the CC BY 4.0 license (Creative Commons Attribution 4.0 International License). This license allows public to share and adapt the data, provided that appropriate credit is given, and any derived works are shared under the same license. 
 
 Common Core of Data (CCD) - School Nonfiscal Data Files and Documentation, 2018-19 dataset is also licensed under the CC BY 4.0 license. This similarly allows public use, distribution, and modification as long as proper attribution is given. 
 
