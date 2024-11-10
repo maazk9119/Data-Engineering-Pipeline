@@ -20,8 +20,7 @@ class Datasource:
                 "Non-English_Language_Learners","Non-Foster_Care","Non_Migrant",
                 "Non_Military_Parent","Non_Section_504","Students_without_Disability",
                 "DateAsOf"
-            ],
-            "rename_year_columns": True,
+            ]
         },
         "SchoolNeighborhoodPovertyEstimates": {
             "url": "https://data-nces.opendata.arcgis.com/api/download/v1/items/10bd90462ec14a53bab1827bc8f533c9/csv?layers=1",
@@ -30,7 +29,6 @@ class Datasource:
                 "Y",
                 "OBJECTID",
                 "NCESSCH"
-            ],
-            "rename_year_columns": True,
+            ]
         }}
         return self
