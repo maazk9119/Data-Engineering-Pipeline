@@ -9,7 +9,7 @@ Args:
     df: dataframe store into database
 Return: None
 """
-def load_data_to_sqlitedb(table, df):
+def load_data_to_sqlitedb(table, df) -> None:
     db_name = Path("./data/UnequalGroundsDB.db")
     conn = sqlite3.connect(db_name)
     df.to_sql(table, conn, if_exists="replace", index=False)
