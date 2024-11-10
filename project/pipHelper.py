@@ -16,12 +16,28 @@ class Datasource:
         "ReportCardEnrollment": {
             "url": "https://data.wa.gov/api/views/m644-2j5h/rows.csv?accessType=DOWNLOAD",
             "columns_to_delete": [
-                "American_Indian","Asian","Black","Hispanic","Native_Hawaiian",
-                "Two_or_More_Races","White","English","Fooster_Care","Migrant",
-                "Military_Parent","Section_504","Students_with_Disability",
-                "Non-English_Language_Learners","Non-Foster_Care","Non_Migrant",
-                "Non_Military_Parent","Non_Section_504","Students_without_Disability",
-                "DateAsOf"
+                "Gender X",
+                "American Indian/ Alaskan Native",
+                "Asian",
+                "Black/ African American",
+                "Hispanic/ Latino of any race(s)",
+                "Native Hawaiian/ Other Pacific Islander",
+                "Two or More Races",
+                "White",
+                "English",
+                "Foster Care",
+                "Migrant",
+                "Military Parent",
+                "Section 504",
+                "Students with Disabilities",
+                "English Language Learners",
+                "Non-English Language Learners",
+                "Non-Foster Care",
+                "Non Migrant",
+                "Non Military Parent",
+                "Non Section 504",
+                "Students without Disabilities",
+                "DataAsOf"
             ]
         },
         "SchoolNeighborhoodPovertyEstimates": {
@@ -41,4 +57,4 @@ class Datasource:
         #step 2 Transform data
         df_transformed = transform.apply_defined_transformation(df, config)
         #step 3 load data
-        load.load_data_to_sqlitedb(table, df)
+        load.load_data_to_sqlitedb(table, df_transformed)
