@@ -52,8 +52,8 @@ Each work package will contain at least one issue.
     3. Locate potential data sources. [[issue](https://github.com/maazk9119/Data-Engineering-Pipeline/issues/6)]
     4. Evaluate the identified data sources. [[issue](https://github.com/maazk9119/Data-Engineering-Pipeline/issues/7)]
 2. **Data Acquisition and Pipeline** [[WP2](https://github.com/maazk9119/Data-Engineering-Pipeline/milestone/2)]
-    1. Determine the best data storage format.
-    3. Data Pipeline.
+    1. Determine the best data storage format. [[issue](https://github.com/maazk9119/Data-Engineering-Pipeline/issues/8)]
+    3. Data Pipeline. [[issue](https://github.com/maazk9119/Data-Engineering-Pipeline/issues/9)]
 3. **Data Exploration, Analytics and Report** [[WP3](https://github.com/maazk9119/Data-Engineering-Pipeline/milestone/3)]
     1. Conduct exploratory data analysis and preliminary visualization.
     2. Create DataLoader, Pipeline, Visualizations, Models, etc.
