@@ -1,3 +1,5 @@
+from etl import (extract, transform, load)
+
 """
 Datasource class has responsibilty to manage selected Portal e.g Data.gov
 """
@@ -7,9 +9,9 @@ class Datasource:
     Initialzing the selected datasets into DSA format
     Args:
         self: Instance level implementation
-        Return: current instance of Datasource 
+    Return: current instance of Datasource 
     """
-    def InitalizeData(self):
+    def initalize_datasets(self):
         self.datasets = {
         "ReportCardEnrollment": {
             "url": "https://data.wa.gov/api/views/m644-2j5h/rows.csv?accessType=DOWNLOAD",
@@ -32,3 +34,11 @@ class Datasource:
             ]
         }}
         return self
+    
+    def execute_etl_process(self, table, config):
+        #step 1 Extract from Datasource
+        df = extract.get_dataframe(config['url'])
+        #step 2 Transform data
+        df_transformed = transform.apply_defined_transformation(df, config)
+        #step 3 load data
+        load.load_data_to_sqlitedb(table, df)
