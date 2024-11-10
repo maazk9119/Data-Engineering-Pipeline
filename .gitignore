@@ -1,3 +1,7 @@
 .DS_Store
 /data/*
 !/data/.gitkeep
+project/__pycache__/pipHelper.cpython-311.pyc
+project/etl/__pycache__/extract.cpython-311.pyc
+project/etl/__pycache__/load.cpython-311.pyc
+project/etl/__pycache__/transform.cpython-311.pyc
