@@ -43,7 +43,7 @@ class Datasource:
         "SchoolNeighborhoodPovertyEstimates": {
             "url": "https://data-nces.opendata.arcgis.com/api/download/v1/items/10bd90462ec14a53bab1827bc8f533c9/csv?layers=1",
             "columns_to_delete": [
-                "X",
+                "ï»¿X",
                 "Y",
                 "OBJECTID",
                 "NCESSCH"
