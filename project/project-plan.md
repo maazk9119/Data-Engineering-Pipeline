@@ -55,10 +55,10 @@ Each work package will contain at least one issue.
     1. Determine the best data storage format. [[issue](https://github.com/maazk9119/Data-Engineering-Pipeline/issues/8)]
     3. Data Pipeline. [[issue](https://github.com/maazk9119/Data-Engineering-Pipeline/issues/9)]
 3. **Data Exploration, Analytics and Report** [[WP3](https://github.com/maazk9119/Data-Engineering-Pipeline/milestone/3)]
-    1. Conduct exploratory data analysis and preliminary visualization.
-    2. Create DataLoader, Pipeline, Visualizations, Models, etc.
-    3. Address all the research questions.
-    4. Draw conclusions form the analysis. 
+    1. Conduct exploratory data analysis and preliminary visualization. [[issue](https://github.com/maazk9119/Data-Engineering-Pipeline/issues/15)]
+    2. Create DataLoader, Pipeline, Visualizations, Models, etc. [[issue](https://github.com/maazk9119/Data-Engineering-Pipeline/issues/16)]
+    3. Address all the research questions. [[issue](https://github.com/maazk9119/Data-Engineering-Pipeline/issues/17)]
+    4. Draw conclusions form the analysis. [[issue](https://github.com/maazk9119/Data-Engineering-Pipeline/issues/18)]
 4. **Automated Testing** [[WP4](https://github.com/maazk9119/Data-Engineering-Pipeline/milestone/4)]
     1. Create Tests.
 5. **Continuous integration** [[WP5](https://github.com/maazk9119/Data-Engineering-Pipeline/milestone/5)]
