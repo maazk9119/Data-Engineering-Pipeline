@@ -8,6 +8,7 @@
 
 [![Python](https://img.shields.io/badge/python-3.11.9-blue.svg)](https://www.python.org/downloads/release/python-3119/)
 [![Jayvee](https://img.shields.io/badge/jayvee-0.6.3-blue.svg)](https://pypi.org/project/jayvee/0.6.3/)
+[![Jayvee](https://img.shields.io/badge/jayvee-0.6.4-blue.svg)](https://pypi.org/project/jayvee/0.6.4/)
 
 [![Exercise Feedback](https://github.com/maazk9119/Data-Engineering-Pipeline/actions/workflows/exercise-feedback.yml/badge.svg)](https://github.com/maazk9119/Data-Engineering-Pipeline/actions/workflows/exercise-feedback.yml)
 ![Ex1](https://img.shields.io/badge/Ex1-100%25-brightgreen)![Ex2](https://img.shields.io/badge/Ex2-100%25-brightgreen)
