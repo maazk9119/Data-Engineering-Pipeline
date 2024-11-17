@@ -30,7 +30,7 @@ pipeline CountryStatePipeline{
     CountryStateNameHeaderWriter    
         -> CountryStateBoundIssuanceTableInterpreter
         -> CountryStateBoundIssuanceLoader;
-        
+
     CountryStateNameHeaderWriter
         -> CountryStateGdPerCapitaTableInterpreter
         -> CountryStateGdPerCapitaLoader;
@@ -89,7 +89,7 @@ pipeline CountryStatePipeline{
     block CountryStateGdPerCapitaTableInterpreter oftype TableInterpreter {
         header: true;
         columns: [
-            "Country Code" oftype CountryCodeAlpha3,
+            "Country Code" oftype text,
             "GDP per Capita" oftype GdPerCapita,
         ];
     }
