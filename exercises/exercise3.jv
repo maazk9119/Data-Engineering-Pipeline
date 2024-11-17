@@ -30,7 +30,7 @@ pipeline CountryStatePipeline{
     CountryStateNameHeaderWriter    
         -> CountryStateBoundIssuanceTableInterpreter
         -> CountryStateBoundIssuanceLoader;
-
+        
     CountryStateNameHeaderWriter
         -> CountryStateGdPerCapitaTableInterpreter
         -> CountryStateGdPerCapitaLoader;
@@ -58,21 +58,22 @@ pipeline CountryStatePipeline{
       "Bond Issuance Share"];
     }
 
-    constraint BondIssuanceShareRegex oftype RegexConstraint {
-        regex: /^0(\.\d+)?|1(\.0+)?$/;
+    constraint BondIssuanceShareRegex oftype RangeConstraint {
+        lowerBound: 0;
+        upperBound: 1;
     }
 
-    valuetype BondIssuanceShare oftype text {
+    valuetype BondIssuanceShare oftype decimal {
         constraints: [
             BondIssuanceShareRegex,
         ];
     }
 
-    constraint GdPerCapitaRegex oftype RegexConstraint {
-        regex: /^\d+(\.\d+)?/;
+    constraint GdPerCapitaRegex oftype RangeConstraint {
+        lowerBound: 0;
     }
 
-    valuetype GdPerCapita oftype text {
+    valuetype GdPerCapita oftype decimal {
         constraints: [
             GdPerCapitaRegex,
         ];
@@ -89,7 +90,7 @@ pipeline CountryStatePipeline{
     block CountryStateGdPerCapitaTableInterpreter oftype TableInterpreter {
         header: true;
         columns: [
-            "Country Code" oftype text,
+            "Country Code" oftype CountryCodeAlpha3,
             "GDP per Capita" oftype GdPerCapita,
         ];
     }
