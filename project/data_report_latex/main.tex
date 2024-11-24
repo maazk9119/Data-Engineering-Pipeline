@@ -12,50 +12,49 @@
 \begin{document}
 
 \section{Questions}
-\begin{itemize}
-    \item How does neighborhood poverty level impact school enrollment rates across different regions in the United States?
+    \begin{itemize}
+        \item How does neighborhood poverty level impact school enrollment rates across different regions in the United States?
     
-    \item How do poverty levels around schools vary by region in the United States, and what might these differences suggest about educational inequality?
-\end{itemize}
+        \item How do poverty levels around schools vary by region in the United States, and what might these differences suggest about educational inequality?
+    \end{itemize}
 
 \section{Data Sources}
     \subsection{Description of Data Sources}
-    \begin{itemize}
-    \item \textbf{Dataset 1: School Neighborhood Poverty Estimates 2020-2021}
+        \begin{itemize}
+            \item \textbf{Dataset 1: School Neighborhood Poverty Estimates 2020-2021}
     
-    This dataset from the National Center for Education Statistics \(\text(NCES)\) includes data on neighborhood poverty levels surrounding schools, which can serve as a proxy for educational access and community socioeconomic conditions. \cite{dataset1}
+            This datset from the National Center for Education Statistics \(\text(NCES)\) includes data on neighborhood poverty levels surrounding schools, which can serve as a proxy for educational access and community socioeconomic conditions. \cite{dataset1}
 
-    \item \textbf{Dataset 2: Report Card Enrollment}
+            \item \textbf{Dataset 2: Report Card Enrollment}
 
-    This dataset provides detailed school enrollment statistics disaggregated by school, district, and state for the 2022-23 school year. It includes student counts by demographics, which can help analyze how regional poverty levels might influence enrollment and highlight disparities across regions. \cite{dataset2}
-    \end{itemize}
+            This dataset provides detailed school enrollment statistics disaggregated by school, district, and state for the 2022-23 school year. It includes student counts by demographics, which can help analyze how regional poverty levels might influence enrollment and highlight disparities across regions. \cite{dataset2}
+        \end{itemize}
 
     \subsection{Data Structure and Quality}
-    \begin{itemize}
-    \item \textbf{School Neighborhood Poverty Estimates 2020-2021}  I will add details here.
-
-    \begin{figure}[ht!]
-        \centering
-        \includegraphics[width=0.9\textwidth]{images/SchoolNeighborhoodPovertyData.png}
-        \caption{First 7 rows of school neighborhood poverty estimate 2020-2021 dataset.}
-        \label{fig:dataset1}
-    \end{figure}
-
-    \item \textbf{Report Card Enrollment} I will add details here.
-
-    \begin{figure}[ht!]
-        \centering
-        \includegraphics[width=0.9\textwidth]
-        {images/ReportCardEnrollmentData.png}
-        \caption{First 6 rows of report card enrollment}
-        \label{fig:dataset2}
-    \end{figure}
-    \end{itemize}
+        \begin{itemize}
+            \item \textbf{School Neighborhood Poverty Estimates 2020-2021} 
+            \begin{figure}[ht!]
+                \centering
+                \includegraphics[width=0.9\textwidth]{images/SchoolNeighborhoodPovertyData.png}
+                \caption{School neighborhood poverty estimate 2020-2021 dataset}
+                \label{fig:dataset1}
+            \end{figure}
+            
+            The data is organized with geospatial data (latitude and longitude) defining the locations of various education systems. It also includes the income-to-poverty ratio (IPR) which measure the socioeconomics conditions in surroundings to the schools. Additionally, It defines the standard error of the IPR for each area.
+            
+\newpage
+            \item \textbf{Report Card Enrollment} 
+            \begin{figure}[h!]
+                \centering
+                \includegraphics[width=0.9\linewidth]{images/SchoolNeighborhoodPovertyData.png}
+                \caption{Report card Enrollment}
+                \label{fig:dataset2}
+            \end{figure}
+        \end{itemize} The data is structured for analyzing school-specific or regional educational trends. Mainly it contains the statistical metrics of enrollment in different Education system. Also, providing the income category by which students are belonging. 
 
     \subsection{Licenses and Permissions}
-    The data sources are publicly available on \href{https://catalog.data.gov//} under open-data licenses. Detailed license information can be found at
-    \href{https://resources.data.gov/open-licenses/}{License}
-
+        The data sources are publicly available on under \href{https://catalog.data.gov//}open-data licenses. Detailed license information can be found at \href{https://resources.data.gov/open-licenses/}{License}
+    
 \section{Data Pipeline}
     The data pipeline engineering is designed and developed with python has three main modules: extractor, transform, and loader, each module contains respective functionalities. Furthermore, the pipeline helper has responsibility to initialize the desire configuration for data sources.
 
@@ -82,24 +81,23 @@
             \node [L, right=of transform] (loader) {Loader};
             \node [db, right=of loader, text width=2cm, align=center] (database) {Database \\ \footnotesize (SQLite)};
 
-        % Connections
-        \path [line] (source) -- (extractor);
-        \path [line] (extractor) -- (transform);
-        \path [line] (transform) -- (loader);
-        \path [line] (loader) -- (database);
-    \end{tikzpicture}
+            \path [line] (source) -- (extractor);
+            \path [line] (extractor) -- (transform);
+            \path [line] (transform) -- (loader);
+            \path [line] (loader) -- (database);
+        \end{tikzpicture}
     \caption{ETL Pipeline Flow}
-    \label{fig:etl_pipeline}
+    \label{fig:etl}
     \end{figure}
 
 \section{Result and Limitations}
-The pipeline stored an output in SQLite database in table format. This is one of the fastest and easier method to deal with the data. The pipeline is smart-enough
-to maintain the stored data quality.
-\begin{itemize}
-    \item All necessary information is available to support the analysis questions.
-    \item The data is consistent in their formats.
-    \item The data reflects the real word and are correct indicators.
-\end{itemize}
+    The pipeline stored an output in SQLite database in table format. This is one of the fastest and easier method to deal with the data. The pipeline is smart-enough
+    to maintain the stored data quality.
+    \begin{itemize}
+        \item All necessary information is available to support the analysis questions.
+        \item The data is consistent in their formats.
+        \item The data reflects the real word and are correct indicators.
+    \end{itemize}
 
 \bibliographystyle{plain}
 \bibliography{reference}
