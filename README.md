@@ -64,7 +64,7 @@ School Neighborhood Poverty Estimates (2020-21) dataset is licensed under the CC
 
 Common Core of Data (CCD) - School Nonfiscal Data Files and Documentation, 2018-19 dataset is also licensed under the CC BY 4.0 license. This similarly allows public use, distribution, and modification as long as proper attribution is given. 
 
-Therefore, The content of this project is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) license. For more information, visit [CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/).
+Therefore, The content of this project is licensed under the Open Licenses and Creative Commons Attribution 4.0 International (CC BY 4.0) license. For more information, visit [CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/) and [Open Licenses](https://resources.data.gov/open-licenses/)
 
 [cc-by]: http://creativecommons.org/licenses/by/4.0/
 [cc-by-image]: https://licensebuttons.net/l/by/4.0/88x31.png
