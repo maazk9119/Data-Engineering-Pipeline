@@ -31,7 +31,9 @@ pipeline TemperaturesPipeline {
         ->TemperaturesCSVInterpreter
         ->TemperaturesCellRangeSelector
         ->TemperaturesColumnDeleter
-        ->TemperaturesCellWriter
+        ->TemperaturesCellWriter;
+
+    TemperaturesCellWriter
         ->TemperaturesTableInterpreter
         ->TemperatureTransformer
         ->TemperatureBatteryTransformer
