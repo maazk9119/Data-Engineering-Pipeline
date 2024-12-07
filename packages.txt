@@ -1,4 +1,4 @@
-﻿asttokens
+asttokens
 attrs
 branca
 certifi
