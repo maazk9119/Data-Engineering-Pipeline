@@ -62,8 +62,7 @@ Each work package will contain at least one issue.
 4. **Automated Testing** [[WP4](https://github.com/maazk9119/Data-Engineering-Pipeline/milestone/4)]
     1. Create Tests. [[issue](https://github.com/maazk9119/Data-Engineering-Pipeline/issues/19)]
 5. **Continuous integration** [[WP5](https://github.com/maazk9119/Data-Engineering-Pipeline/milestone/5)]
-    1. Develop CI.
-    2. Develop CI for Pre-Commit.
+    1. Develop CI. [[issue](https://github.com/maazk9119/Data-Engineering-Pipeline/issues/20)]
 6. **Final Report** [[WP6](https://github.com/maazk9119/Data-Engineering-Pipeline/milestone/6)]
     1. Develop visual representations. 
     2. Enhance the repository's presentation. 
