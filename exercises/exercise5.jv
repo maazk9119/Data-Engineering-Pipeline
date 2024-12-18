@@ -1,0 +1,79 @@
+// Build an automated data pipeline for the following source:
+    // Direct download link: https://gtfs.rhoenenergie-bus.de/GTFS.zip
+// Goal
+    // Work with domain-specific GTFS data
+    // Pick out only stops (from stops.txt)
+        // Only the columns stop_id, stop_name, stop_lat, stop_lon, zone_id with fitting data types
+    // Filter data
+        // Only keep stops from zone 1925
+    // Validate data
+        // stop_name must be a text but must maintain german umlauts
+        // stop_lat/stop_lon must be a geographic coordinates between -90 and 90, including upper/lower bounds
+        // Drop rows containing invalid data
+        // Use fitting SQLite types (e.g., BIGINT, TEXT or FLOAT) for all columns
+        // Write data into a SQLite database called “gtfs.sqlite”, in the table “stops”
+
+pipeline GTFSPipeline{
+    GTFSFileExtractor
+        ->GTFSZipArchiveInterpreter
+        ->GTFSFilePicker
+        ->GTFSTextFileInterpreter
+        ->GTFSCSVInterpreter
+        ->GTFSTableInterpreter
+        ->GTFSCellsLoader;
+
+    block GTFSFileExtractor oftype HttpExtractor {
+    url: "https://gtfs.rhoenenergie-bus.de/GTFS.zip";
+    }
+
+    block GTFSZipArchiveInterpreter oftype ArchiveInterpreter {
+    archiveType: "zip";
+    }
+
+    block GTFSFilePicker oftype FilePicker {
+    path: "./stops.txt";
+    }
+
+    block GTFSTextFileInterpreter oftype TextFileInterpreter{}
+
+    block GTFSCSVInterpreter oftype CSVInterpreter {
+        enclosing: '"';
+    }
+
+    constraint CordinatesRangeConstraint oftype RangeConstraint {
+        lowerBound: -90;
+        upperBound: 90;
+    }
+
+    constraint ZoneIdInteger on integer:
+        value == 1925;
+
+
+    valuetype cordinates oftype decimal {
+        constraints: [
+            CordinatesRangeConstraint,
+        ];
+    }
+
+    valuetype zoneId oftype integer {
+        constraints: [
+            ZoneIdInteger,
+        ];
+    }
+
+    block GTFSTableInterpreter oftype TableInterpreter {
+        header: true;
+        columns: [
+        "stop_id" oftype integer,
+        "stop_name" oftype text,
+        "stop_lat" oftype cordinates,
+        "stop_lon" oftype cordinates,
+        "zone_id" oftype zoneId,
+        ];
+    }
+
+    block GTFSCellsLoader oftype SQLiteLoader {
+        table: "stops";
+        file: "./gtfs.sqlite";
+    }
+}
