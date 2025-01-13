@@ -10,6 +10,7 @@
 [![Jayvee](https://img.shields.io/badge/jayvee-0.6.3-blue.svg)](https://pypi.org/project/jayvee/0.6.3/)
 [![Jayvee](https://img.shields.io/badge/jayvee-0.6.4-blue.svg)](https://pypi.org/project/jayvee/0.6.4/)
 [![Unit Test](https://img.shields.io/badge/Unit-Testing-blue.svg)](https://pypi.org/project/Unitesting)
+[![Continuous Integration](https://img.shields.io/badge/Continuous-Integration-blue.svg)](https://pypi.org/project/Continuous-Integration)
 
 [![Exercise Feedback](https://github.com/maazk9119/Data-Engineering-Pipeline/actions/workflows/exercise-feedback.yml/badge.svg)](https://github.com/maazk9119/Data-Engineering-Pipeline/actions/workflows/exercise-feedback.yml)
 ![Ex1](https://img.shields.io/badge/Ex1-100%25-brightgreen)![Ex2](https://img.shields.io/badge/Ex2-100%25-brightgreen)![Ex3](https://img.shields.io/badge/Ex3-100%25-brightgreen)![Ex4](https://img.shields.io/badge/Ex4-100%25-brightgreen)![Ex5](https://img.shields.io/badge/Ex5-100%25-brightgreen)
