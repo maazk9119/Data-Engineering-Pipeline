@@ -9,9 +9,11 @@
 [![Python](https://img.shields.io/badge/python-3.11.9-blue.svg)](https://www.python.org/downloads/release/python-3119/)
 [![Jayvee](https://img.shields.io/badge/jayvee-0.6.3-blue.svg)](https://pypi.org/project/jayvee/0.6.3/)
 [![Jayvee](https://img.shields.io/badge/jayvee-0.6.4-blue.svg)](https://pypi.org/project/jayvee/0.6.4/)
+[![Unit Test](https://img.shields.io/badge/Unit-Testing-blue.svg)](https://pypi.org/project/Unitesting)
+[![Continuous Integration](https://img.shields.io/badge/Continuous-Integration-blue.svg)](https://pypi.org/project/Continuous-Integration)
 
 [![Exercise Feedback](https://github.com/maazk9119/Data-Engineering-Pipeline/actions/workflows/exercise-feedback.yml/badge.svg)](https://github.com/maazk9119/Data-Engineering-Pipeline/actions/workflows/exercise-feedback.yml)
-![Ex1](https://img.shields.io/badge/Ex1-100%25-brightgreen)![Ex2](https://img.shields.io/badge/Ex2-100%25-brightgreen)![Ex3](https://img.shields.io/badge/Ex3-100%25-brightgreen)
+![Ex1](https://img.shields.io/badge/Ex1-100%25-brightgreen)![Ex2](https://img.shields.io/badge/Ex2-100%25-brightgreen)![Ex3](https://img.shields.io/badge/Ex3-100%25-brightgreen)![Ex4](https://img.shields.io/badge/Ex4-100%25-brightgreen)![Ex5](https://img.shields.io/badge/Ex5-100%25-brightgreen)
 </div>
 
 # Table of Contents
@@ -27,9 +29,9 @@
 This project aims to explore the relationship between neighborhood poverty levels and school enrollment rates across North, Central, and South America, with a specific focus on the United States.
 
 The main objectives are:
-1. How does neighborhood poverty level impact school enrollment rates across different regions in the United States?
+1. How neighborhood poverty correlates with school enrollment rates in U.S ?
 
-2. How do poverty levels around schools vary by region in the United States, and what might these differences suggest about educational inequality?
+2. Regional disparities in poverty  and their potential implications for educational equality ?
 
 ## Data Sources
 The project utilizes the following datasets:

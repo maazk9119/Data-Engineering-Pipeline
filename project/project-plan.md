@@ -64,13 +64,11 @@ Each work package will contain at least one issue.
 5. **Continuous integration** [[WP5](https://github.com/maazk9119/Data-Engineering-Pipeline/milestone/5)]
     1. Develop CI. [[issue](https://github.com/maazk9119/Data-Engineering-Pipeline/issues/20)]
 6. **Final Report** [[WP6](https://github.com/maazk9119/Data-Engineering-Pipeline/milestone/6)]
-    1. Develop visual representations. 
-    2. Enhance the repository's presentation. 
-    3. Prepare the final presentation.
+    1. Develop visual representations. [[issue](https://github.com/maazk9119/Data-Engineering-Pipeline/issues/21)]
+    2. Enhance the repository's presentation. [[issue](https://github.com/maazk9119/Data-Engineering-Pipeline/issues/22)]
+    3. Prepare the final presentation.[[issue](https://github.com/maazk9119/Data-Engineering-Pipeline/issues/23)]
   
 **Note:** Work packages must be completed sequentially as each one depends on the completion of all preceding ones. If you want to track the work package updates, follow it. 
-
-
 
 
 ## References and footnotes
